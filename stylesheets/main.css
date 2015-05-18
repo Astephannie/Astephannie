@@ -5967,8 +5967,9 @@ a.right.carousel-control {
   height: 50%; }
   @media screen and (max-width: 480px) {
     #principal-proyecto {
-      height: 25%;
-      margin-top: 4%; } }
+      background-image: url("../assets/images/fondo4Celular.jpg");
+      margin-top: 12%;
+      height: 40%; } }
   #principal-proyecto .titulo {
     color: white;
     padding: auto; }
@@ -5977,10 +5978,14 @@ a.right.carousel-control {
       padding-top: 9%; }
       @media screen and (max-width: 480px) {
         #principal-proyecto .titulo h3 {
-          font-size: 20px; } }
+          font-size: 20px;
+          padding-top: 12%; } }
 
 #proyectos-todos {
   padding: 5% 2% 3%; }
+  @media screen and (max-width: 480px) {
+    #proyectos-todos {
+      padding: 13% 1% 5%; } }
   #proyectos-todos h6 {
     font-size: 15px; }
     @media screen and (max-width: 480px) {
